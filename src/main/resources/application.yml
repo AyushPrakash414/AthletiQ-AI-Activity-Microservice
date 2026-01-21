@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: activityService
+
+
+
+  data:
+    mongodb:
+      uri: ${MONGO_URI}
+      database: ${MONGODB_DATABASE}
